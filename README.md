@@ -6,7 +6,7 @@
 
 # Objectives
 
-- Configure VLANs
+- Configure & Name VLANs
 - Assign access ports
 - Configure switchport security
 - Set hostnames
