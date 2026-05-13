@@ -15,8 +15,6 @@
 - Disable DTP negotiation
 - ---
 
-# Step 6 — Configure Trunk Ports
-
 A trunk was configured on both FastEthernet0/3 links to allow future router connectivity (Router-on-a-Stick) or additional VLAN expansion.
 
 # Why Trunking Was Used
