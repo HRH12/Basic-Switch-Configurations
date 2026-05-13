@@ -1,0 +1,74 @@
+hostname SW1
+!
+enable password 7 0802455D0A16
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+ switchport access vlan 3
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 2
+!
+interface FastEthernet0/2
+ switchport access vlan 4
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 2
+!
+interface FastEthernet0/3
+ switchport mode trunk
+ switchport nonegotiate
+
+interface Vlan3
+ ip address 192.168.1.1 255.255.255.224
+!
+interface Vlan4
+ ip address 192.168.2.1 255.255.255.224
+!
+banner motd ^CAuthorized Use Only!^C
+
+--------------------------------------------------
+
+SW 2
+hostname SW2
+!
+enable password 7 0802455D0A16
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+ switchport access vlan 6
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 2
+!
+interface FastEthernet0/2
+ switchport access vlan 5
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 2
+!
+interface FastEthernet0/3
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface Vlan5
+ ip address 192.168.3.33 255.255.255.224
+!
+interface Vlan6
+ ip address 192.168.4.33 255.255.255.224
+!
+banner motd ^CAuthorized Use Only!^C
