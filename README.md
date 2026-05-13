@@ -8,8 +8,8 @@
 
 - Configure & Name VLANs
 - Assign access ports
-- Configure switchport security
+- Configure switchport security/sticky
 - Set hostnames
-- Configure passwords
+- Configure passwords (console/vty lines)
 - Create a banner message
 - ---
