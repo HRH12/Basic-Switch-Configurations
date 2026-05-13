@@ -1,7 +1,7 @@
 # Basic-Switch-Configurations
 
 
-<img width="982" height="507" alt="image" src="https://github.com/user-attachments/assets/02fe3cba-8a92-406e-a5d9-5e821504a25e" />
+<img width="912" height="617" alt="image" src="https://github.com/user-attachments/assets/52af0dfb-5197-4212-bb4b-e23764bcd822" />
 
 
 # Objectives
@@ -12,16 +12,4 @@
 - Set hostnames
 - Configure passwords
 - Create a banner message
-- Disable DTP negotiation
 - ---
-
-A trunk was configured on both FastEthernet0/3 links to allow future router connectivity (Router-on-a-Stick) or additional VLAN expansion.
-
-# Why Trunking Was Used
-
-- Allows multiple VLANs across one link
-- Supports future router connectivity
-- Makes VLAN expansion easier later
-- Common enterprise network design practice
-
----
