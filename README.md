@@ -12,4 +12,5 @@
 - Set hostnames
 - Configure passwords (console/vty lines)
 - Create a banner message
+- Encrypt all passwords
 - ---
